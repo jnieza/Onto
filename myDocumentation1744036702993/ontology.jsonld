@@ -1,0 +1,1286 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Atraction"
+    }, {
+      "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Hotel"
+    }, {
+      "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Restaurant"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLClass_debe3afb_a97c_4736_87a9_597e7138cdcd"
+    }, {
+      "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Price"
+    }, {
+      "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Rating"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLObjectProperty_f7845fe4_43c4_46fb_955d_dee625f74b75"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLClass_debe3afb_a97c_4736_87a9_597e7138cdcd"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLDataProperty_b5cb4b6c_44d2_4a5e_8b1f_ce1c8b881387"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid21"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#onDatatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2002/07/owl#withRestrictions" : [ {
+    "@list" : [ {
+      "@id" : "_:genid23"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "http://www.w3.org/2001/XMLSchema#minInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.0"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid38"
+    }, {
+      "@id" : "_:genid36"
+    }, {
+      "@id" : "_:genid34"
+    }, {
+      "@id" : "_:genid30"
+    }, {
+      "@id" : "_:genid26"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid40"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/v"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "40"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#lessThanOrEqual"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/v"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "20"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThanOrEqual"
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/v"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLDataProperty_b5cb4b6c_44d2_4a5e_8b1f_ce1c8b881387"
+  } ]
+}, {
+  "@id" : "_:genid36",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLObjectProperty_f79adaa2_91b8_49e4_9a75_bb939799fbdf"
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Restaurant"
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLClass_768b4b5d_2625_4fdc_9abb_4aa30890c8fa"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S3"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid51"
+    }, {
+      "@id" : "_:genid49"
+    }, {
+      "@id" : "_:genid47"
+    }, {
+      "@id" : "_:genid43"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid53"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/v"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "20"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#lessThan"
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/v"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLDataProperty_b5cb4b6c_44d2_4a5e_8b1f_ce1c8b881387"
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLObjectProperty_f79adaa2_91b8_49e4_9a75_bb939799fbdf"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Hotel"
+    }, {
+      "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Restaurant"
+    }, {
+      "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Transport"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Restaurant"
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLClass_271cc21d_7935_4360_b3dd_9e1727a63008"
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid64"
+    }, {
+      "@id" : "_:genid62"
+    }, {
+      "@id" : "_:genid60"
+    }, {
+      "@id" : "_:genid56"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid66"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#v"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "40"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#v"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLDataProperty_b5cb4b6c_44d2_4a5e_8b1f_ce1c8b881387"
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLObjectProperty_f79adaa2_91b8_49e4_9a75_bb939799fbdf"
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Restaurant"
+  } ]
+}, {
+  "@id" : "_:genid66",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLClass_e822256b_03e3_4a02_9d4e_2e86d0569e13"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Atraction"
+    }, {
+      "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/City"
+    }, {
+      "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Event"
+    }, {
+      "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Hotel"
+    }, {
+      "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Restaurant"
+    } ]
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/rights",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@language" : "en",
+    "@value" : "Alejandro Rojas"
+  }, {
+    "@language" : "en",
+    "@value" : "Javier Nieto"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "This ontology models the domain of smart tourism by representing key concepts such as events, accommodations, attractions, restaurants, and transportation across different cities. It is motivated by the need to enhance the tourist experience through intelligent, personalized, and context-aware services. As tourism becomes increasingly data-driven, there is a growing need for structured and interoperable representations that enable better integration, reasoning, and decision-making. The goal of this ontology is to provide a semantic framework that supports efficient information organization and fosters the development of smart tourism applications and personalized recommendation systems."
+  } ],
+  "http://purl.org/dc/terms/rights" : [ {
+    "@id" : "https://creativecommons.org/publicdomain/zero/1.0/"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Smart Tourism Ontology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This ontology models smart tourism by representing key elements such as events, hotels, attractions, restaurants, and transportation in various cities. It aims to organize information efficiently and enhance the tourist experience through personalized recommendations."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ontotourism"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "1.0"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Andalusian",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Associated with Andalusia, its traditions, or heritage."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Andalusian"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Atraction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A place of interest for visitors."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Attraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Beach",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A hotel located near or facing a beach."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Beach"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/BeachAtraction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A beach offering recreational activities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "BeachAttraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Atraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Bicycle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A two-wheeled, human-powered vehicle."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bicycle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Bus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A large vehicle for public transit."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Business",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A hotel designed for corporate travelers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Business"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/City",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A large and densely populated urban area"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "City"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Cultural",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An event showcasing traditions, arts, or heritage."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cultural"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/CulturalAtraction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A site showcasing history, arts, or traditions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CulturalAttraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Atraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An organized gathering for entertainment, education, or socializing."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Gastronomic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An event focused on food and culinary experiences."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gastronomic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Hotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A lodging facility for temporary stays."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid19"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Italian",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Connected to Italy, its people, or its culture."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Italian"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Jpanese",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Pertaining to Japan, its culture, or its language."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Japanese"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Luxury",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A high-end hotel offering premium services and comfort."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Luxury"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Mediterranean",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Related to the Mediterranean region, its climate, or lifestyle."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mediterranean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Mexican",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Related to Mexico, its culture, or its people."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mexican"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Monument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A structure commemorating history or people"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Monument"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Atraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Museum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A place exhibiting art, history, or science."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Museum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Atraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Musical",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An event centered on live or recorded music performances."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Musical"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLClass_1bad6dd6_c1f5_46f1_9a8a_f18f259771ed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Metric that allows to track the prices."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PriceKPI"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLClass_271cc21d_7935_4360_b3dd_9e1727a63008",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A price that is lower than the average price for a product or a service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cheap"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLClass_1bad6dd6_c1f5_46f1_9a8a_f18f259771ed"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLClass_768b4b5d_2625_4fdc_9abb_4aa30890c8fa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A price that is around the average for a product or a service."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Normal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLClass_1bad6dd6_c1f5_46f1_9a8a_f18f259771ed"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLClass_debe3afb_a97c_4736_87a9_597e7138cdcd",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Number of stars a hotel has."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "HotelStars"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLClass_e822256b_03e3_4a02_9d4e_2e86d0569e13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A price that is higher than the average for a product or service."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Expensive"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLClass_1bad6dd6_c1f5_46f1_9a8a_f18f259771ed"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLDataProperty_6fe1ee50_8b80_47a3_8358_418c1f2bd60a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates the geographical location of an entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLDataProperty_7b44fa03_5283_494c_a280_30767aa92f60",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Defines the name of an entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid9"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLDataProperty_929dda70_80a4_43c8_b4ad_cd68ab468ef1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Specifies a date associated with an event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasDate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLDataProperty_b5cb4b6c_44d2_4a5e_8b1f_ce1c8b881387",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates a numerical value associated with an entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid15"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasValue"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLDataProperty_ff830ef5_9569_434c_971d_924797ccd630",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents the company or entity responsible for a service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Transport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "company"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLNamedIndividual_050d32fe_7f84_422c_a539_4f6a08c61b74",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLDataProperty_b5cb4b6c_44d2_4a5e_8b1f_ce1c8b881387" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "46.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Price"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This value represents a numerical quantity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "46"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLNamedIndividual_35db4fb2_58e8_43af_a96f_32732e2702ba",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLObjectProperty_1559748a_3358_4c8d_b6ed_138024cd55d3" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLNamedIndividual_bb651214_c683_41bc_9d47_06f8f944af0f"
+  } ],
+  "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLObjectProperty_bae68171_3f6e_4ed8_bb45_09d0148c477e" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLNamedIndividual_54315b61_05e4_4437_b125_78ad100d5f40"
+  } ],
+  "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/hasEvent" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLNamedIndividual_495abffb_320b_45bc_9828_1d5e9c759d55"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Toledo is a municipality and city in Spain, the capital of the province of the same name, in the autonomous community of Castilla-La Mancha. It has a population of 86,526 inhabitants."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Toledo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Toledo,_Spain"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLNamedIndividual_495abffb_320b_45bc_9828_1d5e9c759d55",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLDataProperty_929dda70_80a4_43c8_b4ad_cd68ab468ef1" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2024-12-14"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Cultural"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Congreso Toledo refers to a conference or event held in Toledo, Spain, often attracting professionals and scholars from various fields."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Congreso Toledo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLNamedIndividual_54315b61_05e4_4437_b125_78ad100d5f40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLObjectProperty_f79adaa2_91b8_49e4_9a75_bb939799fbdf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLNamedIndividual_050d32fe_7f84_422c_a539_4f6a08c61b74"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Mexican"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Restaurante Tradición Toledo is a traditional restaurant located in Toledo, Spain, known for its authentic mexican cuisine and  ambiance."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Restaurante Tradición Toledo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLNamedIndividual_ad35bf4b_2785_4b07_8060_1466c36105e1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLDataProperty_b5cb4b6c_44d2_4a5e_8b1f_ce1c8b881387" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "3.7"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Rating"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This value represents a numerical quantity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "3.7"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLNamedIndividual_bb651214_c683_41bc_9d47_06f8f944af0f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLObjectProperty_e5a14a50_054b_4528_a47d_418daa9a4396" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLNamedIndividual_ad35bf4b_2785_4b07_8060_1466c36105e1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Monument"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Castillo Toledo is a historic castle located in Toledo, Spain, representing the city's rich architectural and cultural heritage."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Castillo Toledo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLObjectProperty_1559748a_3358_4c8d_b6ed_138024cd55d3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An attraction available in a city."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasAttraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Atraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLObjectProperty_36df61d0_431b_4d5d_adc1_5d55b7121735",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A hotel available in a city."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLObjectProperty_9cbccffe_e730_4812_b475_37b437bffab9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A mode of transport available in a city."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasTransport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLObjectProperty_bae68171_3f6e_4ed8_bb45_09d0148c477e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A restaurant available in a city."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasRestaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLObjectProperty_e5a14a50_054b_4528_a47d_418daa9a4396",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A rating assigned to an entity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasRating"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Rating"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLObjectProperty_f7845fe4_43c4_46fb_955d_dee625f74b75",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Stars assigned to a hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasStars"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLClass_debe3afb_a97c_4736_87a9_597e7138cdcd"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/OWLObjectProperty_f79adaa2_91b8_49e4_9a75_bb939799fbdf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A price assigned to an entity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasPrice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Price"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Park",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A green space for leisure and nature enjoyment."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Park"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Atraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Price",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The cost of a product or service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Price"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid20"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Rating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A score reflecting quality or satisfaction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rating"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Restaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A place where meals are prepared and served."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Rural",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A hotel situated in the countryside, often with a rustic charm."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rural"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Sportive",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A competition or exhibition related to sports."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sportive"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Subway",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An underground urban train system."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Subway"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Taxi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A car for private hire with a driver."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Taxi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Technologic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An event about innovations, gadgets, or industry trends."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Technologic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Touristic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A hotel catering to leisure and sightseeing visitors."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Touristic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Tram",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A rail vehicle operating on city streets."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tram"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Transport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A mode of moving people or goods"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Transport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/hasEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An event taking place in a city."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/p",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/r",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ale/ontologies/2025/2/Ontoturism/v",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#date",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#greaterThanOrEqual",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#lessThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#lessThanOrEqual",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "urn:swrl:var#p",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#r",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#v",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+} ]
